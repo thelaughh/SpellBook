@@ -16,7 +16,11 @@ namespace SpellBook
         }
         public string VygenerujSpellname(string[] poleForma, string[] poleTypy)
         {
-
+             
+            int cislo = generator.Next(0, poleForma.Length-1);
+            int cislo1 = generator.Next(0, poleTypy.Length - 1);
+            
+            
         }
         public int VYgenerujCislo(int max)
         {

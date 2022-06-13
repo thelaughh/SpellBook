@@ -10,10 +10,5 @@ namespace SpellBook
     {
         public string Name { get; set; }
         public int ManaCost { get; set; }
-
-        public void třída()
-        {
-            Console.WriteLine("Projekt vytvořen");
-        }
     }
 }
